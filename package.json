@@ -1,15 +1,23 @@
 {
-  "name": "objecthistory",
+  "name": "@davidrobins/objecthistory",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "deepmerge": "^2.1.0"
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "deepmerge": "^2.1.0",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3"
+  },
+  "dependencies": {
+    "babel-jest": "^26.6.3",
+    "lodash": "^4.17.21"
   }
 }
